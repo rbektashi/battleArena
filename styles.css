@@ -1,0 +1,67 @@
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.arena-img {
+  background-image: url("assets/space-arena.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  z-index: -1;
+}
+h1 {
+  color: purple;
+  text-align: center;
+  font-family: "VT323", monospace;
+}
+
+#battle-arena {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+/* #warrior { */
+/* background-image: url("assets/warrior.png"); */
+/* background-size: 200px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  z-index: 4;
+} */
+
+.warrior-img {
+  display: flex;
+  position: relative;
+  top: 475px;
+  left: 100px;
+  height: 150px;
+  width: 150px;
+}
+
+.monster-img {
+  display: flex;
+  position: relative;
+  top: 280px;
+  left: 400px;
+  height: 200px;
+  width: 200px;
+}
+.dice-img {
+  display: flex;
+  position: relative;
+  bottom: 150px;
+  left: 280px;
+  height: 125px;
+  width: 125px;
+  z-index: 1;
+  transform: rotate(40deg);
+}
